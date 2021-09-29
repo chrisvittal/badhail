@@ -1,6 +1,8 @@
 /*.egg-info/
+/_hail.*.pyd
+/_hail.*.so
+/_hail.pyd
+/_hail.so
 /build/
 /dist/
-/_hail.*.so
-/_hail.so
 __pycache__/

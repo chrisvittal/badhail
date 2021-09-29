@@ -1,7 +1,6 @@
 #ifndef HAIL_H
 #define HAIL_H
 #include <stdbool.h>
-#include <unistd.h>
 
 enum _hail_type_tag {
 	HAIL_TY_VOID,

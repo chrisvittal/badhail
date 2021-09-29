@@ -1,8 +1,5 @@
 #include "hail.h"
 
-#include <stdlib.h>
-#include <string.h>
-
 struct _hail_tvoid tvoid = { .ty={.tag=HAIL_TY_VOID} };
 struct _hail_tbool tbool = { .ty={.tag=HAIL_TY_BOOL} };
 struct _hail_tint32 tint32 = { .ty={.tag=HAIL_TY_INT32} };
