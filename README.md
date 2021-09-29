@@ -23,13 +23,13 @@ Read that file.
 ## Building
 Using setuptools:
 ```
-python setup.py build_ext -i
+$ python setup.py build_ext -i
 ```
 
 ## Running
 ```
-python
-``>>> import hail as hl
+$ python
+>>> import hail as hl
 >>> hl.tint32  # singletons
 dtype('int32')
 >>> hl.tarray(hl.tfloat64)  # constructors
