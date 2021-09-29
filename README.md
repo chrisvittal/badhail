@@ -8,7 +8,17 @@ behavior like formatting, item getters, and implementing the sequence protocol.
 In many ways, this is an argument to not use the CPython API directly as it is
 boilerplate heavy and error prone. Something like [Cython] or [PyO3] should
 probably be used instead of the CPython API as they support alternative
-implementations (PyPy), creating ease of maintenance.
+implementations (like PyPy) and remove boilerplate, creating ease of maintenance.
+
+[Cython]: https://cython.org/
+[PyO3]: https://pyo3.rs/
+
+## Navigation
+
+All the interesting code with respect to the CPython api is in [libhail/module.c].
+Read that file.
+
+[libhail/module.c]: libhail/module.c
 
 ## Building
 Using setuptools:
